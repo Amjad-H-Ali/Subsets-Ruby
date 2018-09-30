@@ -22,5 +22,6 @@ def subsets data, subset=[], i=0
 		subset[i] = data[i]
 
 		subsets data, subset, i + 1
+	end	
 
 end	
