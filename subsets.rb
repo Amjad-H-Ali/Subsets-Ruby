@@ -18,6 +18,9 @@ def subsets data, subset=[], i=0
 
 		subsets data, subset, i + 1
 
+		# Subsets containing values
+		subset[i] = data[i]
 
+		subsets data, subset, i + 1
 
 end	
