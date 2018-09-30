@@ -8,4 +8,9 @@ p "Subsets!"
 # No return value, only prints to std output.
 def subsets data, subset=[], i=0
 
+	# When i is out of range, we have found a subset.
+	if i == subset.length
+		p subset
+	end	
+
 end	
