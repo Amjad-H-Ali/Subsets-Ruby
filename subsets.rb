@@ -11,6 +11,13 @@ def subsets data, subset=[], i=0
 	# When i is out of range, we have found a subset.
 	if i == subset.length
 		p subset
-	end	
+
+	else
+		# For the nil subsets 
+		subset[i] = nil
+
+		subsets data, subset, i + 1
+
+
 
 end	
