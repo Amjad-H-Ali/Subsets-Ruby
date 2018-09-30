@@ -25,3 +25,13 @@ def subsets data, subset=[], i=0
 	end	
 
 end	
+
+subsets [1, 2]
+
+p "-----------------"
+
+subsets ["monkey", "banana"]
+
+p "-----------------"
+
+subsets ['a', 'b', 'c', 'd']
