@@ -6,5 +6,6 @@ p "Subsets!"
 # subset: an array containing the subsets
 # i: the current index
 # No return value, only prints to std output.
-def subsets data, subset, i
+def subsets data, subset=[], i
+
 end	
