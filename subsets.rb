@@ -9,7 +9,7 @@ p "Subsets!"
 def subsets data, subset=[], i=0
 
 	# When i is out of range, we have found a subset.
-	if i == subset.length
+	if i == data.length
 		p subset
 
 	else
